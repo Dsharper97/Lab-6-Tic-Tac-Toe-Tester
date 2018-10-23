@@ -19,14 +19,6 @@ public class TicTacToeGameTest {
     public TicTacToeGameTest() {
     }
     
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
-
     /**
      * Test of main method, of class TicTacToeGame.
      */
@@ -48,7 +40,8 @@ public class TicTacToeGameTest {
         TicTacToeGame instance = new TicTacToeGame();
         instance.createBoard();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
+        fail("TEST DAILS");
     }
 
     /**
