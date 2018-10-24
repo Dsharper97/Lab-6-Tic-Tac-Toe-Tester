@@ -14,9 +14,9 @@ public class TicTacToeGame {
     /**
      * @param args the command line arguments
      */
-    public static String player1 = "x" ;
-    public static String player2 = "o"; 
-    public static String currentPlayer = player1;
+    public String player1 = "x" ;
+    public String player2 = "o"; 
+    public String currentPlayer = player1;
     public String [][] Board = null;
 
      
@@ -46,7 +46,7 @@ public class TicTacToeGame {
     }
     
     public  void makeMove(int i, int j){
-        if(!(spaceInUse(i,j))){
+    {
          Board [i][j] = currentPlayer; 
     }
         
